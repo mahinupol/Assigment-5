@@ -1,0 +1,92 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+
+}
+body{
+    background-color: #0D0A27;
+}
+
+
+
+#naymarPic{
+    width: 30%;
+    float: left;
+    margin-left: -9%;
+    margin-top: 35px;
+}
+#logo{
+    width: 10%;
+    float: right;
+    margin-top: -25%;
+    margin-right: 300px;
+}
+#footbal{
+    width: 25%;
+    float: right;
+    margin-top: -14.5%;
+}
+
+.text{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    width: 890px;
+    height: auto;
+    padding-top: 180px;
+}
+
+.headText{
+    color: yellow;
+    padding-bottom: 10px;
+    font-size:55px;
+    font-weight: 600;
+}
+.Ptext{
+    line-gap-override: 3px;
+}
+
+.head{
+    height: 500px;
+    background-color: #0d0a27;
+    margin-top: -2%;
+}
+
+/* ---------------------------------------------*/
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin-top: 70px;
+}
+
+.all{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 70%;
+   
+    background-color: #0D0A27;
+   
+}
+
+.pic{
+    height: 200px;
+}
+
+
+
+.two{ 
+    width: 450px;
+    background-color: #0D0A27;
+    color: white;
+    padding-left: 20px;
+    padding-top: 60px;
+}
+
+
+
+.all{
+    background-color: #0d0a27;
+}
